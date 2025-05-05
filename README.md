@@ -11,6 +11,8 @@ Our core method for re-ranking ranked lists to optimize relevance while improvin
 
 ## Usage
 
+In:
+
 ```python
 import random, math
 from reranker import BalancedReranker
@@ -47,6 +49,8 @@ aw_after = reranker._awrf(data100, reranked)
 print(f"nDCG@{k}: before={ndcg_before:.4f}, after={ndcg_after:.4f}")
 print(f"AWRF    : before={aw_before:.4f}, after={aw_after:.4f}")
 
+```
+Out:
 
 ```shell
 INFO - Initialized: k=10, λ_bounds=(0.1, 3.0), time_limit=20s, bayes_calls=7, init_points=7, slack_weight=0.200, imbalance_correction=True
