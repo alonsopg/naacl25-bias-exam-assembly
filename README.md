@@ -1,6 +1,6 @@
 # Balanced Re-Ranker
 
-A Python library for re-ranking ranked lists to optimize relevance while improving fairness across predefined groups or categories. It aims to maximize nDCG@k and minimize AWRF (Attention Weighted Rank Fairness).
+Our method for re-ranking ranked lists to optimize relevance while improving fairness across predefined groups or categories. It aims to maximize nDCG@k and minimize AWRF (Attention Weighted Rank Fairness).
 
 ## Features
 
