@@ -31,7 +31,7 @@ k = 10
 orig_topk = data100[:k]
 true_ideal = [item[4] for item in data100[:k]]
 
-# Run Fair Re-Ranker
+# Run Re-Ranker
 reranker = BalancedReranker(
     k=k, lambda_bounds=(0.1, 3.0), time_limit=20,
     bayes_calls=7, initial_points=7,
